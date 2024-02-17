@@ -1,22 +1,22 @@
-Table 1
-Name,Year,Director,,,,
-The Shawshank Redemption,1994,Frank Darabont,,,,
-Inception,2010,Christopher Nolan,,,,
-The Godfather,1972,Francis Ford Coppola,,,,
-Pulp Fiction,1994,Quentin Tarantino,,,,
-The Dark Knight,2008,Christopher Nolan,,,,
-Forrest Gump,1994,Robert Zemeckis,,,,
-Fight Club,1999,David Fincher,,,,
-The Matrix,1999,The Wachowskis,,,,
-The Lord of the Rings: The Fellowship of the Ring,2001,Peter Jackson,,,,
-The Lord of the Rings: The Return of the King,2003,Peter Jackson,,,,
-The Lord of the Rings: The Two Towers,2002,Peter Jackson,,,,
-Schindler's List,1993,Steven Spielberg,,,,
-Titanic,1997,James Cameron,,,,
-The Silence of the Lambs,1991,Jonathan Demme,,,,
-Goodfellas,1990,Martin Scorsese,,,,
-The Green Mile,1999,Frank Darabont,,,,
-Saving Private Ryan,1998,Steven Spielberg,,,,
-The Departed,2006,Martin Scorsese,,,,
-The Dark Knight Rises,2012,Christopher Nolan,,,,
-Gladiator,2000,Ridley Scott,,,,
+
+Name,Year,Director
+The Shawshank Redemption,1994,Frank Darabont
+Inception,2010,Christopher Nolan
+The Godfather,1972,Francis Ford Coppola
+Pulp Fiction,1994,Quentin Tarantino
+The Dark Knight,2008,Christopher Nolan
+Forrest Gump,1994,Robert Zemeckis
+Fight Club,1999,David Fincher
+The Matrix,1999,The Wachowskis
+The Lord of the Rings: The Fellowship of the Ring,2001,Peter Jackson
+The Lord of the Rings: The Return of the King,2003,Peter Jackson
+The Lord of the Rings: The Two Towers,2002,Peter Jackson
+Schindler's List,1993,Steven Spielberg
+Titanic,1997,James Cameron
+The Silence of the Lambs,1991,Jonathan Demme
+Goodfellas,1990,Martin Scorsese
+The Green Mile,1999,Frank Darabont
+Saving Private Ryan,1998,Steven Spielberg
+The Departed,2006,Martin Scorsese
+The Dark Knight Rises,2012,Christopher Nolan
+Gladiator,2000,Ridley Scott
