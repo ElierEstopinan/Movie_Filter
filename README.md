@@ -13,23 +13,39 @@ The Movie Filter Application is a Python program designed to load movie data fro
 5. **Exit:** Terminates the program.
 
 ## Files
-- **Movie_Filtering_System.Py:** The main Python script containing the Movie Filter Application code.
-- **Movies.csv:** The CSV file containing movie data. The format should be [Name, Year, Director].
+- **Movie_Filtering_System.py:** The main Python script containing the Movie Filter Application code.
+- **Movies.csv:** The CSV file containing movie data. The format should be `[Name, Year, Director]`.
+- **Dockerfile:** Docker configuration to containerize and run the application easily.
 
-## Usage
-1. Ensure Python is installed on your system.
-2. Run the `Movie_Filtering_System.Py:` script.
-3. Follow the on-screen prompts to navigate through the menu options.
-4. Select the desired option to filter or view movies.
+## Usage (Local)
+1. Ensure Python 3.x is installed on your system.
+2. Ensure the `Movies.csv` file is in the same directory as the `Movie_Filtering_System.py` script.
+3. Run the script:
+   ```sh
+   python Movie_Filtering_System.py
+   ```
+4. Follow the on-screen prompts to navigate through the menu options.
 5. To exit the program, choose the "Exit" option from the menu.
 
+## Usage (Docker)
+1. Make sure Docker is installed and running on your system.
+2. Build the Docker image:
+   ```sh
+   docker build -t movie-filter-app .
+   ```
+3. Run the application in a container:
+   ```sh
+   docker run -it movie-filter-app
+   ```
+
 ## Dependencies
-- Python 3.x
-- CSV module (standard library)
+- Python 3.x (standard library only)
+- Docker (for containerized usage)
 
-## Installation
-1. Clone or download the repository to your local machine.
-2. Ensure the `Movies.csv` file is in the same directory as the `Movie_Filtering_System.Py:` script.
-3. Run the `Movie_Filtering_System.Py:` script using a Python interpreter.
-
-## Sample CSV File Format (Movies.csv)
+## Sample CSV File Format (`Movies.csv`)
+```csv
+Name,Year,Director
+The Shawshank Redemption,1994,Frank Darabont
+The Godfather,1972,Francis Ford Coppola
+Inception,2010,Christopher Nolan
+```

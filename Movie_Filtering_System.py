@@ -51,9 +51,9 @@ def see_all(movies_data):
 
 
 def main():
-    file_path = "/Users/elierestopinan/Documents/3- 🏷️ Resources/python_projects/Movie_Filter/Movies.csv"
+    file_path = "Movies.csv"  
     if not os.path.isfile(file_path):
-        print("Error: File 'Movies.csv' not found in 'Movies File' folder.")
+        print("Error: File 'Movies.csv' not found in the current directory.")
         return
 
     movies_data = load_movies_from_csv(file_path)
